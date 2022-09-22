@@ -20,7 +20,8 @@ de mesmo nome social, ou pessoa física é coincidência.
 
 - Vite
 - Tailwindcss
-- Font Awesome Icons
+- FontAwesome Icons
 - HTML
 - PostCSS
 - AutoPrefixer
+- Javascript
