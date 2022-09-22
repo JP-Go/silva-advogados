@@ -7,6 +7,9 @@ module.exports = {
         sans: ['Inter'],
         serif: ['Charis SIL'],
       },
+      backgroundImage: {
+        justice: 'url("/justica.jpg")',
+      },
     },
   },
   plugins: [],
