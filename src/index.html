@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-justice cover bg-no-repeat">
+  <body class="bg-justice bg-fixed bg-no-repeat bg-cover">
     <header class="py-4 text-center bg-white mx-auto w-full">
       <h1 class="text-black text-4xl font-serif font-bold w-full mx-auto">
         <span class="text-sky-800">Silva</span>Advogados
@@ -26,17 +26,56 @@
     <main class="w-4/5 mx-auto">
       <section
         name="hero"
-        class="w-full bg-sky-800 text-white flex flex-col items-center center relative rounded-b-lg overflow-hidden border-2 border-sky-800"
+        class="w-full bg-sky-800 text-white flex flex-col items-center relative rounded-b-lg overflow-hidden border-2 border-sky-800"
       >
         <img src="./img/advogada.jpg" alt="Advogada" />
         <div
-          class="text-2xl font-semibold text-white absolute top-2/3 text-shadow rounded bg-sky-800 p-3 text-center w-1/2"
+          class="text-xs font-semibold text-white absolute top-2/3 text-shadow rounded bg-sky-800 p-3 text-center w-1/2 md:text-2xl"
         >
-          Converse com os ótimos advogados da nossa equipe e resolva seus problemas sem problemas
+          Converse com os advogados da nossa equipe e resolva suas pendências
         </div>
       </section>
 
-      <section name="info" class="my-10">info</section>
+      <section name="info-card" class="my-10 bg-sky-800 w-full p-4 rounded text-white">
+        <h2 name="info-card-title" class="font-bold text-2xl mb-4">
+          Depoimentos de clientes que contaram com nossos serviços
+        </h2>
+        <div class="flex flex-col md:flex-row gap-2 md:gap-10 w-full items-center justify-center">
+          <div
+            class="border rounded-md shadow-md border-white p-2 flex flex-col items-center md:w-1/3 text-justify hover:scale-105 transition-all min-w-fit md:min-w-0"
+          >
+            <h4 class="font-semibold">Sérgio Farias</h4>
+            <h4 class="text-sky-300 font-semibold mb-2">Bolto Ferramentas</h4>
+            <p class="leading-relaxed">
+              Defenderam-me em um caso de um cliente que nos acusou de extravio de produto. O caso
+              foi resolvido em menos de 3 meses e o cliente foi obrigado a nos pagar reparação
+              moral. Recomendo os serviços da Silva Advogados
+            </p>
+          </div>
+          <div
+            class="border rounded-md shadow-md border-white p-2 flex flex-col items-center md:w-1/3 text-justify hover:scale-105 transition-all min-w-fit md:min-w-0"
+          >
+            <h4 class="font-semibold">Sérgio Farias</h4>
+            <h4 class="text-sky-300 font-semibold mb-2">Bolto Ferramentas</h4>
+            <p class="leading-relaxed">
+              Defenderam-me em um caso de um cliente que nos acusou de extravio de produto. O caso
+              foi resolvido em menos de 3 meses e o cliente foi obrigado a nos pagar reparação
+              moral. Recomendo os serviços da Silva Advogados
+            </p>
+          </div>
+          <div
+            class="border rounded-md shadow-md border-white p-2 flex flex-col items-center md:w-1/3 text-justify hover:scale-105 transition-all min-w-fit md:min-w-0"
+          >
+            <h4 class="font-semibold">Sérgio Farias</h4>
+            <h4 class="text-sky-300 font-semibold mb-2">Bolto Ferramentas</h4>
+            <p class="leading-relaxed">
+              Defenderam-me em um caso de um cliente que nos acusou de extravio de produto. O caso
+              foi resolvido em menos de 3 meses e o cliente foi obrigado a nos pagar reparação
+              moral. Recomendo os serviços da Silva Advogados
+            </p>
+          </div>
+        </div>
+      </section>
 
       <section
         name="areas"
@@ -72,7 +111,7 @@
         </button>
       </section>
     </main>
-    <footer class="bg-sky-800 text-white w-full py-4 pt-8 my-0">
+    <footer class="bg-sky-800 text-white w-full py-4 pt-8 my-0 break-words">
       <div class="grid grid-cols-2 gap-10 w-4/5 mx-auto">
         <div name="bussines-data">
           <h2 name="offices" class="text-2xl font-semibold">Sedes</h2>
@@ -85,13 +124,11 @@
           <p>Telefone para atendimento: (86) 3232-3232</p>
           <div name="horarios">
             Horários de atendimento:
-            <div class="grid grid-cols-2">
-              <ul>
+            <div>
+              <ul class="flex flex-col md:grid md:grid-cols-2 gap-1">
                 <li>&#x1F550; Segunda a Sexta:</li>
-                <li>&#x1F550; Sábados:</li>
-              </ul>
-              <ul>
                 <li>08:00 &#8212; 18:00</li>
+                <li>&#x1F550; Sábados:</li>
                 <li>08:00 &#8212; 12:00</li>
               </ul>
             </div>
